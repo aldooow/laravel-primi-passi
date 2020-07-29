@@ -1,0 +1,15 @@
+footer {
+  color: #ffff;
+  background: #1c3c59;
+  .top {
+    display: flex;
+    justify-content: space-between;
+      img {
+        width: 150px;
+      }
+    }
+  .bottom {
+    text-align: center;
+  }
+
+}
