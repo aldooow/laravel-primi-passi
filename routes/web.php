@@ -20,6 +20,20 @@ Route::get('/corso', function () {
     return view('corso');
 })->name('corso');
 
+Route::get('/dopo', function () {
+    return view('dopo_il_corso');
+})->name('dopo');
+
+Route::get('/lezione', function () {
+    return view('lezione_gratuita');
+})->name('lezione');
+
+Route::get('/assumi', function () {
+    return view('assumi_i_nostri_studenti');
+})->name('assumi');
+
+
+
 Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');

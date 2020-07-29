@@ -10932,6 +10932,7 @@ a.text-dark:focus {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 main {
@@ -10952,11 +10953,18 @@ main {
 
 header .logo {
   width: 150px;
+  margin-right: 50px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
   color: #ffff;
   background: #1c3c59;
+  padding: 20px 10%;
 }
 
 footer .top {
@@ -10964,8 +10972,13 @@ footer .top {
   justify-content: space-between;
 }
 
-footer .top img {
+footer .top .left img {
   width: 150px;
+}
+
+footer .top .right li {
+  list-style-type: none;
+  text-align: left;
 }
 
 footer .bottom {

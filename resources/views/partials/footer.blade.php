@@ -8,10 +8,14 @@
         Tel: 02-40031288</p>
     </div>
     <div class="right">
-      <p>Lezione gratuita <br>
-        Domande frequenti <br>
-        Privacy policy <br>
-        Lavora con noi</p>
+
+      <ul>
+        <li>Lezione gratuita</li>
+        <li>Domande frequenti</li>
+        <li><a href="{{ route('privacy') }}">Privacy policy</a></li>
+        <li>Lavora con noi</li>
+      </ul>
+
     </div>
   </div>
   <div class="bottom">
