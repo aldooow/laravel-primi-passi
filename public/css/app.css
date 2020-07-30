@@ -10938,6 +10938,7 @@ a.text-dark:focus {
 main {
   color: #1c3c59;
   padding: 40px 0;
+  padding-top: 100px;
   background: #ffff;
   width: 80%;
   margin: auto;
@@ -10949,6 +10950,29 @@ main {
 
 .cta img {
   width: 350px;
+}
+
+#faq {
+  width: 100%;
+  display: flex;
+}
+
+#faq .left {
+  background: #e9ebf0;
+  width: 50%;
+  padding: 5%;
+}
+
+#faq .right {
+  background: #1c3c59;
+  color: #ffff;
+  width: 50%;
+  padding: 5%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
 }
 
 header .logo {
