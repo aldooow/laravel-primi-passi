@@ -12,6 +12,13 @@ main{
   width: 80%;
   margin:auto;
 }
+.hidden {
+  display: none;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+}
 .cta {
   display: flex;
   img {

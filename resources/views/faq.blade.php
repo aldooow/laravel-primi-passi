@@ -15,15 +15,25 @@
     <div class="left">
       <h2>Prima del corso</h2>
       @foreach ($faqs_prima as $faq)
-        <h3 class="lama">{{ $faq['question'] }}</h3>
-        <p>{{ $faq['answer'] }}</p>
+      <div>
+        <h3 class="question">
+          {{ $faq['question'] }}
+          <i class="fas fa-plus"></i>
+        </h3>
+        <p class="hidden">{{ $faq['answer'] }}</p>
+      </div>
       @endforeach
     </div>
     <div class="right">
       <h2>Dopo il corso</h2>
       @foreach ($faqs_dopo as $faq)
-        <h3>{{ $faq['question'] }}</h3>
-        <p>{{ $faq['answer'] }}</p>
+        <div>
+          <h3 class="question">
+            {{ $faq['question'] }}
+            <i class="fas fa-plus"></i>
+          </h3>
+          <p class="hidden">{{ $faq['answer'] }}</p>
+        </div>
       @endforeach
     </div>
   </div>

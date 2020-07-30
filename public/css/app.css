@@ -10944,6 +10944,15 @@ main {
   margin: auto;
 }
 
+.hidden {
+  display: none;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
 .cta {
   display: flex;
 }

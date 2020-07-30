@@ -8,8 +8,10 @@ $(document).ready(
 
 
 
-    $("#faq").on("click", function(){
-       $(this).find('p').toggle();
+    $("#faq h3").on("click", function(){
+       $(this).siblings('p').toggle();
+       $(this).find('i').toggleClass('hidden');
+
     });
 
 
